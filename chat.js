@@ -23,7 +23,7 @@ $(document).ready(function() {
       $.cookie('showChat', '1', {
         expires: 365
       });
-    }, 10000);
+    }, 2000);
   
     close.click(function() {
     widget.hide('fast');
