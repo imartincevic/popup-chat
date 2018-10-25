@@ -52,7 +52,7 @@
   height: 14px;
   margin: -1px 0 0 0;
 
-  background-image: url('chat.png');
+  background-image: url('../img/chat.png');
   background-repeat: no-repeat;
   opacity: 0.7;
 }
@@ -81,7 +81,7 @@
 
   border: none;
   background-color: transparent;
-  background-image: url('chat.png');
+  background-image: url('../img/chat.png');
   background-repeat: no-repeat;
   background-position:  3px -29px;
   opacity: 0.7;
@@ -142,7 +142,7 @@
   width: 25px;
   height: 25px;
 
-  background-image: url('operator.png');
+  background-image: url('../img/operator.png');
   background-repeat: no-repeat;
   background-size: 25px;
 }
@@ -200,13 +200,20 @@
   border-radius: 4px;
 }
 
+.chat__poll-link:link {
+  color: #fff;
+}
+
 .chat__poll-link:focus,
-.chat__poll-link:hover {
+.chat__poll-link:hover,
+.chat__poll-link:active {
+  color: #fff;
   background-color: #235084;
   outline: none;
 }
 
-.chat_poll-link:visited {
+.chat_poll-link:visited,
+.chat__poll-link:focus-visible {
   color: #fff;
 }
 
